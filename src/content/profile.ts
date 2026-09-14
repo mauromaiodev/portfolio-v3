@@ -14,8 +14,8 @@ export const profileSeed: ProfileSeed = {
     "https://drive.google.com/file/d/1i-S4R3ZOCYAGDAhe51RA1NaaKnAjxp2s/view?usp=sharing",
   email: "mauromaio.dev@gmail.com",
   location: {
-    pt: "Fortaleza — CE, remoto",
-    en: "Fortaleza — Brazil, remote",
+    pt: "Bahia — BA, remoto",
+    en: "Bahia — Brazil, remote",
   },
   githubUrl: "https://github.com/mauromaiodev",
   linkedinUrl: "https://www.linkedin.com/in/mauromaio-dev",
