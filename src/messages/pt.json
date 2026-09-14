@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Mauro Maio — Engenheiro de Software",
+    "description": "Engenheiro de Software fullstack com mais de 6 anos de experiência. Next.js, TypeScript, Node.js."
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "education": "Educação",
+    "testimonials": "Depoimentos",
+    "contact": "Contato",
+    "skip": "Pular para o conteúdo"
+  },
+  "hero": {
+    "ctaResume": "Ver currículo",
+    "ctaContact": "Falar comigo"
+  },
+  "skills": {
+    "kicker": "Sobre"
+  },
+  "experience": {
+    "kicker": "Carreira",
+    "title": "Experiência"
+  },
+  "projects": {
+    "kicker": "Trabalho",
+    "title": "Projetos em destaque",
+    "more": "Mais projetos",
+    "code": "Código",
+    "live": "Demo"
+  },
+  "education": {
+    "kicker": "Formação",
+    "title": "Educação"
+  },
+  "testimonials": {
+    "kicker": "Prova social",
+    "title": "Depoimentos"
+  },
+  "contact": {
+    "kicker": "Próximo passo",
+    "title": "Vamos conversar",
+    "body": "Aberto a produtos, times e desafios de engenharia. Me chama no LinkedIn ou no e-mail."
+  },
+  "footer": {
+    "rights": "Feito com Next.js e um tema Dracula."
+  },
+  "github": {
+    "repos": "repositórios",
+    "followers": "seguidores"
+  }
+}

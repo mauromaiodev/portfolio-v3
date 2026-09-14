@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Mauro Maio — Software Engineer",
+    "description": "Fullstack software engineer with 6+ years of experience. Next.js, TypeScript, Node.js."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "ctaResume": "View resume",
+    "ctaContact": "Get in touch"
+  },
+  "skills": {
+    "kicker": "About"
+  },
+  "experience": {
+    "kicker": "Career",
+    "title": "Experience"
+  },
+  "projects": {
+    "kicker": "Work",
+    "title": "Featured projects",
+    "more": "More projects",
+    "code": "Code",
+    "live": "Live"
+  },
+  "education": {
+    "kicker": "Background",
+    "title": "Education"
+  },
+  "testimonials": {
+    "kicker": "Social proof",
+    "title": "Testimonials"
+  },
+  "contact": {
+    "kicker": "Next step",
+    "title": "Let's talk",
+    "body": "Open to products, teams, and engineering challenges. Reach me on LinkedIn or email."
+  },
+  "footer": {
+    "rights": "Built with Next.js and a Dracula theme."
+  },
+  "github": {
+    "repos": "repos",
+    "followers": "followers"
+  }
+}
