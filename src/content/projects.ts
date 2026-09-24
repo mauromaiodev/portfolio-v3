@@ -2,6 +2,24 @@ import type { ProjectSeed } from "./types";
 
 export const projectsSeed: ProjectSeed[] = [
   {
+    name: "use-manager",
+    desc: {
+      pt: "Hook React para gerenciar múltiplos estados em um único lugar, com atualização individual ou em massa, reset para valores iniciais e zero dependências externas. TypeScript, compatível com React 16.8+.",
+      en: "React hook for managing multiple pieces of state in one place, with individual or bulk updates, reset to initial values, and zero external dependencies. TypeScript, compatible with React 16.8+.",
+    },
+    liveUrl: "https://www.npmjs.com/package/use-manager",
+    featured: true,
+  },
+  {
+    name: "usemaru",
+    desc: {
+      pt: "CLI que gera estruturas CRUD completas para Next.js: API routes, types TypeScript, schemas Zod, hooks React Query e actions com Axios, com assistente interativo e zero configuração.",
+      en: "CLI that scaffolds full Next.js CRUD: API routes, TypeScript types, Zod schemas, React Query hooks, and Axios actions, with an interactive wizard and zero configuration.",
+    },
+    liveUrl: "https://www.npmjs.com/package/usemaru",
+    featured: true,
+  },
+  {
     name: "Dev Divers",
     desc: {
       pt: "Template para projetos Next 13+, TypeScript, Tailwind e modelo para projetos SaaS.",

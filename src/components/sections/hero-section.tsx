@@ -35,7 +35,9 @@ export async function HeroSection({ profile, github, locale }: Props) {
         {location ? (
           <p className="mt-3 font-mono text-sm text-comment">{location}</p>
         ) : null}
-        <p className="mt-6 max-w-xl text-lg leading-8 text-comment">{bio}</p>
+        <p className="mt-6 max-w-xl whitespace-pre-line text-lg leading-8 text-comment">
+          {bio}
+        </p>
         <div className="mt-8 flex flex-wrap gap-3">
           {profile.resumeUrl ? (
             <a

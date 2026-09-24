@@ -34,7 +34,7 @@ export async function ExperienceSection({ items, locale }: Props) {
               {t(locale, item.rolePt, item.roleEn)}
             </h3>
             <p className="mt-1 text-sm text-purple">{item.company}</p>
-            <p className="mt-3 max-w-3xl text-sm leading-7 text-comment">
+            <p className="mt-3 max-w-3xl whitespace-pre-line text-sm leading-7 text-comment">
               {t(locale, item.descPt, item.descEn)}
             </p>
           </li>

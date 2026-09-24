@@ -61,7 +61,7 @@ async function seed() {
       })
       .returning({ id: skillGroups.id });
 
-    if (!created) continue;
+    if (!created || group.items.length === 0) continue;
 
     await db.insert(skillItems).values(
       group.items.map((item, itemIndex) => ({

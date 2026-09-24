@@ -4,47 +4,50 @@ export const educationSeed: EducationSeed[] = [
   {
     school: "Anhanguera Educacional",
     subHeader: {
+      pt: "MBA em Arquitetura de Software",
+      en: "MBA in Software Architecture",
+    },
+    duration: { pt: "Abr 2026 — Ago 2026", en: "Apr 2026 — Aug 2026" },
+    desc: {
+      pt: "Certificação em Arquitetura de Software pela Anhanguera Educacional, concluída em agosto de 2026.",
+      en: "Software Architecture certification from Anhanguera Educacional, completed in August 2026.",
+    },
+    bullets: { pt: [], en: [] },
+  },
+  {
+    school: "Anhanguera Educacional",
+    subHeader: {
       pt: "Análise e Desenvolvimento de Sistemas",
       en: "Systems Analysis and Development",
     },
-    duration: { pt: "Jan 2021 — Abr 2023", en: "Jan 2021 — Apr 2023" },
+    duration: { pt: "2021 — 2023", en: "2021 — 2023" },
     desc: {
-      pt: "Criar soluções tecnológicas eficientes para atender às necessidades específicas de organizações e usuários.",
-      en: "Design efficient technical solutions for the needs of organizations and users.",
+      pt: "Formação em análise e desenvolvimento de sistemas.",
+      en: "Degree in systems analysis and development.",
     },
-    bullets: {
-      pt: [
-        "Construção efetiva do software",
-        "Programação, teste, integração de componentes e tecnologias específicas",
-      ],
-      en: [
-        "Effective software construction",
-        "Programming, testing, component integration and domain technologies",
-      ],
+    bullets: { pt: [], en: [] },
+  },
+  {
+    school: "Udemy",
+    subHeader: {
+      pt: "React e Next.js Essencial com TypeScript",
+      en: "Essential React and Next.js with TypeScript",
     },
+    duration: { pt: "Ago 2023", en: "Aug 2023" },
+    desc: {
+      pt: "Certificação em React e Next.js com TypeScript.",
+      en: "Certification in React and Next.js with TypeScript.",
+    },
+    bullets: { pt: [], en: [] },
   },
   {
     school: "Rocketseat",
-    subHeader: {
-      pt: "Fullstack Developer, Information Technology",
-      en: "Fullstack Developer, Information Technology",
-    },
+    subHeader: { pt: "Full Stack Developer", en: "Full Stack Developer" },
     duration: { pt: "Mar 2020 — Jul 2020", en: "Mar 2020 — Jul 2020" },
     desc: {
-      pt: "Sistemas web com ReactJS no frontend, Node.js no backend e app mobile (Android e iOS) com React Native.",
-      en: "Web systems with ReactJS on the frontend, Node.js on the backend, and mobile (Android and iOS) with React Native.",
+      pt: "Formação full stack com foco em aplicações web.",
+      en: "Full stack training focused on web applications.",
     },
-    bullets: {
-      pt: [
-        "PostgreSQL e MongoDB em containers Docker",
-        "Styled Components para interface",
-        "Context API e Redux para estado no React",
-      ],
-      en: [
-        "PostgreSQL and MongoDB in Docker containers",
-        "Styled Components for UI",
-        "Context API and Redux for React state",
-      ],
-    },
+    bullets: { pt: [], en: [] },
   },
 ];

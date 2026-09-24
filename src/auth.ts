@@ -1,19 +1,35 @@
 import NextAuth from "next-auth";
-import GitHub from "next-auth/providers/github";
+import Credentials from "next-auth/providers/credentials";
 
-const adminLogin = process.env.AUTH_ADMIN_GITHUB_LOGIN ?? "mauromaiodev";
+function credentialsMatch(username: unknown, password: unknown) {
+  const expectedUser = process.env.AUTH_ADMIN_USER;
+  const expectedPassword = process.env.AUTH_ADMIN_PASSWORD;
+  if (!expectedUser || !expectedPassword) return false;
+  return username === expectedUser && password === expectedPassword;
+}
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   trustHost: true,
-  providers: [GitHub],
+  session: { strategy: "jwt" },
+  providers: [
+    Credentials({
+      credentials: {
+        username: { label: "Usuário" },
+        password: { label: "Senha", type: "password" },
+      },
+      authorize(credentials) {
+        if (!credentialsMatch(credentials?.username, credentials?.password)) {
+          return null;
+        }
+        return {
+          id: "admin",
+          name: process.env.AUTH_ADMIN_USER,
+        };
+      },
+    }),
+  ],
   pages: {
     signIn: "/admin/login",
     error: "/admin/login",
-  },
-  callbacks: {
-    async signIn({ profile }) {
-      const login = (profile as { login?: string } | undefined)?.login;
-      return login === adminLogin;
-    },
   },
 });

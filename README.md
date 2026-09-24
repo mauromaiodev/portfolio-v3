@@ -7,7 +7,7 @@ Portfólio pessoal em Next.js 16, tema Dracula (somente dark), i18n pt-BR/en e C
 - Next.js 16 App Router, TypeScript, Tailwind CSS v4
 - next-intl (detecção de idioma do navegador + seletor PT/EN)
 - Neon Postgres + Drizzle ORM
-- Auth.js v5 (GitHub OAuth, allowlist `mauromaiodev`)
+- Auth.js v5 (usuário e senha no CMS)
 
 ## Desenvolvimento
 
@@ -31,13 +31,7 @@ Veja `.env.example`.
 | `DATABASE_URL` | Neon pooled (app) |
 | `DATABASE_URL_UNPOOLED` | Neon direto (`drizzle-kit push`) |
 | `AUTH_SECRET` | Auth.js |
-| `AUTH_GITHUB_ID` / `AUTH_GITHUB_SECRET` | GitHub OAuth App |
-| `AUTH_ADMIN_GITHUB_LOGIN` | Login GitHub permitido no CMS |
-
-Callback do OAuth App:
-
-- `http://localhost:3000/api/auth/callback/github`
-- `https://<domínio>/api/auth/callback/github`
+| `AUTH_ADMIN_USER` / `AUTH_ADMIN_PASSWORD` | Login do CMS |
 
 ## Conteúdo
 

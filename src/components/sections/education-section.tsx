@@ -35,11 +35,13 @@ export async function EducationSection({ items, locale }: Props) {
               <p className="mt-3 text-sm leading-6 text-comment">
                 {t(locale, item.descPt, item.descEn)}
               </p>
-              <ul className="mt-4 space-y-2 text-sm text-comment">
-                {bullets.map((bullet) => (
-                  <li key={bullet}>— {bullet}</li>
-                ))}
-              </ul>
+              {bullets.length > 0 ? (
+                <ul className="mt-4 space-y-2 text-sm text-comment">
+                  {bullets.map((bullet) => (
+                    <li key={bullet}>— {bullet}</li>
+                  ))}
+                </ul>
+              ) : null}
             </article>
           );
         })}
