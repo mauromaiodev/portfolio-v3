@@ -11,7 +11,7 @@ export const profileSeed: ProfileSeed = {
     en: "Software Engineer and Tech Lead with 6+ years building scalable web applications in healthcare, education, finance, marketing, and agribusiness.\nI work across the stack: React, Next.js, and TypeScript on the frontend, Go and Node.js on the backend, and Docker, Kubernetes, and AWS in infrastructure. I lead teams through architecture, code review, and mentoring.",
   },
   resumeUrl:
-    "https://drive.google.com/file/d/1i-S4R3ZOCYAGDAhe51RA1NaaKnAjxp2s/view?usp=sharing",
+    "https://drive.google.com/file/d/1yVdXpFrFvyx0cKfKpkbryyJXGsPjDzGZ/view",
   email: "mauromaio.dev@gmail.com",
   location: {
     pt: "Salvador, BA — remoto",
